@@ -1,0 +1,30 @@
+
+.primary a{
+    font-size: 14px;
+    color: white;
+    padding: 12px 30px;
+    border-radius:var(--border-radius-primary);
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    background-color: var(--color-primary);
+}
+
+.primary a:hover{
+    background-color: var(--color-light);
+    color: var(--color-primary);
+}
+
+.second a{
+    font-size: 14px;
+    color: white;
+    padding: 12px 30px;
+    border-radius:var(--border-radius-primary);
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    border: 1px solid var(--color-primary);
+}
+
+.second a:hover {
+    border: 1px solid var(--color-light);
+    color: var(--color-primary);
+}

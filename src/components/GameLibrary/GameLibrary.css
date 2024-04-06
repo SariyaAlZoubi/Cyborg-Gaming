@@ -1,0 +1,13 @@
+.game-library-card {
+    flex: 1 1 100%;
+}
+.game-library-card ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: calc(var(--padding-primary)/2) 0;
+    border-bottom: 1px solid var(--color-primary);
+}
+.game-library-card ul h4 {
+    font-size: 1rem;
+}

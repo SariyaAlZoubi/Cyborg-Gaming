@@ -1,0 +1,26 @@
+.hero-main {
+    padding: var(--padding-primary);
+    border-radius: var(--border-radius-primary);
+    background: url('../../assets/images/banner-bg.jpg') no-repeat top right/cover;
+    color: var(--color-light);
+    background-color: var(--color-dark);
+}
+
+.sub-title {
+    font-size: 20px;
+    margin-bottom: var(--margin-primary);
+    color: white;
+    font-weight: var(--font-weight-normal);
+}
+.hero-text {
+    max-width: 500px;
+}
+.hero-title {
+    font-size: 60px;
+    margin-bottom: var(--margin-primary);
+    font-weight: var(--font-weight-bold);
+    text-transform: uppercase;
+}
+.hero-title em {
+    color: var(--color-primary);
+}
